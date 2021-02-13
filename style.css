@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  color: #444;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #424242;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+rect {
+  fill: white;
+}
+
+rect:hover {
+  fill: red;
+}
+
+svg {
+  background-color: 424242;
+}
+
+g {
+  color: white;
+  font-size: 10px;
+}
+
+title {
+  box-shadow: #424242;
+  background-color: blue;
+}
+
+#tooltip {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  left: 100px;
+  width: 180px;
+  height: 20px;
+}
